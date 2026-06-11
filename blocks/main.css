@@ -1,8 +1,11 @@
 .main {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-start;
     color:#FFFFFF;
+    max-width: 984px;
+    width: 100%;
+    margin: auto;
 }
 
 .main__introduction {
@@ -25,13 +28,13 @@
 
 .main__subtitle {
     width: 720px;
-    height: 72px;
     font-family: 'Inter-Regular';
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     margin: 32px 0 0 0:
 }
 
@@ -44,35 +47,46 @@
 .main__content {
     display: flex;
     flex-direction: column;
+    justify-items: start;
 }
 
 .main__paragraph {
     font-family: 'Inter-Black';
     font-style: bold;
-    font-size: 5vw;
-    line-height: 36px;
+    font-weight: 900;
+    font-size: 54px;
+    line-height: 58px;
     width: 830px;
-    height:116px;
+    margin: 92px 0 0 0;
 }
 
 .main__quote {
+    width: 737.78px;
     font-family: 'Inter-Regular';
     font-style: normal;
+    font-weight: 400;
     font-size: 24px;
     line-height: 34px;
+    margin: 40px 0 0 0;
 }
 
 .main__attribution {
+    width: 732px;
     font-family: 'Inter-Regular';
     font-style: normal;
+    font-weight: 400;
     font-size: 24px;
     line-height: 34px;
     text-align: right;
+    margin: 10px 0 0 0;
 }
 
 .main__description {
+    width: 721.74px;
     font-family: 'Inter-Regular';
     font-style: normal;
+    font-weight: 400;
     font-size: 16px;
     line-height: 163%;
+    margin: 32px 0 0 0;
 }
